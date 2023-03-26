@@ -47,37 +47,48 @@ table {
 	border-spacing: 0;
 }
 h1{
-    background-color: lightsalmon;
-    font-size: 32px;
+    font-size: 38px;
     text-align: center;
-    margin:none;
-    padding:28px;
+padding: 20px;
+    background-color: chocolate;
+}
+.box{
+    width: 180px;
+    height: 100px;
+    background-color: crimson;
+    border: 3px solid black;
+display: inline-block;
+margin: 30px;
+padding: 18px;
+font-size: 28px;
+}
+.doubled{
+    border-style: double;
+}
+.dashed{
+    border-style: dashed;
+}
+.dotted{
+    border-style: dotted;
+}
+.none{
+    border-style: none;
+}
+.para{
+    width: 500px;
+    background-color: yellowgreen;
+    font-size: 24px;
+    padding: 24px;
+    border-top: 10px solid blue;
+    border-right: 10px solid yellow;
+    border-bottom: 10px solid orange;
+    border-left: 10px solid green;
+    color: aliceblue;
+    margin: 24px;
 }
 .container{
-    width: 600px;
-    height: 600px;
-    color: blue;
-    background-color: #d1d631;
-    border: 2px dotted black;
+    background-color: deeppink;
+    display: inline-block;
+    margin: 24px;
 }
-img{
-    width: 400px;
-    height: 400px;
-    border-radius: 24%;
-}
-.circle{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-color: crimson;
-}
-.footer{
-    font-size: 18px;
 
-}
-a{
-    text-decoration: none;
-    border-bottom: 3px dashed;
-    background-color: coral;
-    padding: 20 30px;
-}
