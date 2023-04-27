@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom starts */
+*,
+*::before,
+::after{
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-size: 16px;
+   background-color: azure;
+}
+/* genereal section */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 24%;
+    border: 2px solid black;
+}
+/* header */
+.header{
+    padding: 32px 0;
+    background-color: beige;
+
+}
+
+
+.brand{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: black;
+}
+.nav a{
+font-size: 18px;
+margin-left: 16px;
+color: red;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+/* hero */
+.hero-heading{
+    font-size: 38px;
+    color: rgb(57, 127, 188);
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.article-section{
+    width: 50%;
+}
+.para{
+    font-family: 'Karla', sans-serif;
+    margin: 40px;
+
+}
+.image{
+    width: 400px;
+    height: 350px;
+    border-radius: 24%;
+    border: 3px solid red;
+    margin: 40px;
+}
+/* section starts */
+.section{
+background-color: beige;
+    padding: 32px 0;
+}
+.button{
+    width: 80px;
+    height: 80px;
+    padding: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 25%;
+    border: 2px solid black;
+   
+}
+/* other section */
+.other-section{
+   background-color: azure;
+    padding: 32px 0;
+   text-align: center;
+}
+.other-heading{
+    font-size: 28px;
+    color: red;
+    font-family: 'Castoro Titling', cursive;
+    margin: 40px;
+}
+.other-image3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+.text{
+    width: 30%;
+    font-size: 20px;
+    color: green;
+    margin: 0 auto;
+}
+/* final-section */
+.final-section{
+    padding: 32px 0;
+    background-color: black;
+    
+}
+.heading4{
+    font-size: 20px;
+    color: #fff;
+}
+.btn-4{
+    color: white;
+    width: 100px;
+    height: 100px;
+    padding: 16px;
+    border-radius: 28%;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 3px solid white;
+}
