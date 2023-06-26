@@ -1,0 +1,600 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+li ul {
+    list-style-type: none;
+}
+
+
+
+/* custom styles */
+* *::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex40 {
+    flex: 0 1 42%;
+}
+
+.margin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    padding: 0 160px;
+    height: 40px;
+    line-height: 40px;
+    background-color: blue;
+    color: #ccc;
+
+}
+
+.navbar span,
+.navbar address {
+    font-size: 16px;
+    margin-left: 8px;
+    margin-left: 14px;
+    margin-right: 150px;
+}
+
+.navbar span {
+    margin-right: 200px;
+    margin-left: 10px;
+}
+
+.icons i {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.nav1 {
+    font-size: 32px;
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 180px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.btn {
+    background-color: orange;
+    width: 60px;
+    height: 50px;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 4px;
+}
+
+
+
+.nav-icons a {
+    font-size: 12px;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+/* hero section starts */
+.hero-section {
+    padding: 40px 0;
+    background:
+        url(https://rahulmandyal1.github.io/Bushon.github.io/assets/media/hero/h1_hero.jpg)no-repeat;
+    background-size: cover;
+}
+
+.content {
+    margin-left: 150px;
+}
+
+.hero-para {
+    color: grey;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hero-heading {
+    font-size: 42px;
+    color: yellowgreen;
+    margin-bottom: 18px;
+    font-weight: 900;
+    width: 40%;
+}
+
+/* about section starts */
+.about {
+    background-color: beige;
+    padding: 60px 0;
+}
+
+.about-heading {
+    color: red;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+
+.para {
+    font-size: 14px;
+    color: blue;
+    margin-bottom: 20px;
+
+}
+
+
+.about img {
+    width: 100%;
+}
+
+.col-1-3 {
+    padding: 0 32px;
+    width: 25%;
+    text-align: center;
+
+}
+
+.border {
+    border: 2px solid red;
+
+}
+
+
+
+/* service section */
+.service {
+    padding: 60px 0;
+}
+
+.service-heading {
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+
+}
+
+.service img {
+    width: 100%;
+}
+
+.col-1-2 {
+    width: 50%;
+    position: relative;
+
+
+}
+
+.material {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    width: 65%;
+    background-color: aliceblue;
+    margin-top: 40px;
+
+}
+
+.para2 {
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.flex-40 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* service heading */
+.service {
+    background-color: aliceblue;
+}
+
+.service-heading {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: red;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.new-heading {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 14px;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: 700;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.col-2-3 {
+    width: 27%;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.icons1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.new2 {
+    color: blue;
+}
+
+/* casec section starts */
+.cases {
+    padding: 130px 0;
+    background-color: darkgrey;
+}
+
+.heading3 {
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.flex2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.column {
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+
+}
+
+.wrapper {
+    margin-right: 100px;
+    margin-top: -120px;
+
+}
+
+.wrapper img {
+    padding-right: 14px;
+    border-radius: 8px;
+}
+
+/* blog setion starts */
+.blog {
+    padding: 60px 0;
+}
+
+.blog-img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 48%;
+    border: 2px solid yellow;
+    padding: 0px;
+}
+
+.para3 {
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    color: blue;
+    padding: 20px 300px;
+}
+
+/* recent section starts */
+.recents {
+    padding: 60px 0;
+}
+
+.column-3-3 {
+    width: 30%;
+
+
+}
+
+img {
+    width: 100%;
+}
+
+.recent-heading {
+    color: red;
+    font-size: 16px;
+}
+
+.recent img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.recent time {
+    color: blue;
+    font-weight: 400;
+}
+
+/* contact section starts */
+.contact {
+    padding: 50px 0;
+    background-color: darkblue;
+}
+
+.heading5 {
+    color: white;
+    font-size: 42px;
+    font-weight: 800;
+    width: 280px;
+}
+
+.para5 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.contactor {
+    margin-left: 200px;
+    width: 40%;
+}
+
+.form {
+    margin-right: 140px;
+    width: 90%;
+    background-color: aliceblue;
+
+}
+
+.btn2 {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 8px 8px;
+    margin: 18px 48px;
+}
+
+.table1 {
+    margin: 4%;
+
+}
+
+.table2 {
+    margin: 4%;
+}
+
+/* footer  section starts */
+.footer {
+    background-color: darkgrey;
+
+}
+
+.heading6 {
+    color: aliceblue;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.para6 {
+    width: 200px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+}
+
+.footer-icons {
+    margin-left: 100px;
+    color: blue;
+    font-size: 18px;
+}
+
+.heading7 {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.list {
+    margin-right: 200px;
+}
+
+.commercial {
+    margin-right: 180px;
+}
+
+.reach {
+    margin-right: 120px;
+}
